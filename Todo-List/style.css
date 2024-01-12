@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #C4F4C7, #E8E1EF);
+    height: 100%;
+    width: 100%;
+    font-family: cursive;
+}
+
+h1{
+    margin-bottom: 2.2rem;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+h5{
+    font-weight: 400;
+}
+
+img{
+    height: 25px;
+    width: auto;
+}
+
+ul{
+    font-size: 1.5rem;
+    list-style-type: none;
+    max-width: 39vw;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#container{
+    width: 100%;
+    /* max-height: 92rem; */
+    height:35rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#todo {
+    /* text-align: center; */
+    background-color: #baecba;
+    padding: 3rem;
+    padding-top: 10px;
+    border: 1px solid forestgreen;
+    list-style: none;
+    border-radius: 1.2rem;
+}
+
+#row{
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#todo-input{
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+
+#add-btn {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #f6f4f9;
+}
+
+.list-decor{
+    text-decoration: line-through;
+    color: rgb(124 123 123);
+}
+
